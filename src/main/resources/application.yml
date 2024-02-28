@@ -1,0 +1,11 @@
+## API documentation
+springdoc:
+  swagger-ui:
+    operationsSorter: method
+  api-docs:
+    path: /api-docs
+
+exchange:
+  api:
+    url: https://v6.exchangerate-api.com/v6/${exchange.api.key}/latest/
+    key: b50ceedd19619d37ffbfd6e8
